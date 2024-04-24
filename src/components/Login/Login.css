@@ -1,0 +1,87 @@
+.container {
+    background-color: #FFF;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);   
+    margin: 5% 8%;
+    height: 80vh;
+    width: 80vw;
+}
+
+.container p{
+    text-align: right;
+    padding: 15px 25px 0px 0px;
+    font-weight: bold;
+}
+
+.help {
+    text-decoration: none;
+    color: #000;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 80vh;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-weight: 600;
+    width: 30%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 16px;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.forgot {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+label {
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+Button {
+    background-color: #1AEBB6;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 0px;
+    width: auto;
+    font-weight: bold;
+}
+
+input {
+    width: auto;
+    padding: 15px 10px;
+}
